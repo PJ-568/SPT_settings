@@ -1,0 +1,12 @@
+[Unit]
+Description=push-saves
+
+[Service]
+WorkingDirectory=/home/pj568/SPT_settings
+ExecStart=/home/pj568/push-saves.sh
+Restart=always
+User=pj568
+Group=pj568
+
+[Install]
+WantedBy=multi-user.target

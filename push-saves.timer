@@ -1,0 +1,11 @@
+[Unit]
+Description=Run push-saves.service every 2 minutes
+After=network.target
+Before=Aki-server.service
+
+[Timer]
+OnUnitActiveSec=2min
+Unit=push-saves.service
+
+[Install]
+WantedBy=timers.target
