@@ -1,7 +1,7 @@
 [Unit]
 Description=Aki Server Service
-Wants=demo.timer
-After=demo.timer
+Wants=push-saves.timer
+After=push-saves.timer
 
 [Service]
 WorkingDirectory=/home/pj568/Aki-server
@@ -16,4 +16,4 @@ ExecStopPost=/home/pj568/push-saves.sh
 WantedBy=multi-user.target
 
 [Unit]
-PartOf=demo.timer
+PartOf=push-saves.timer
