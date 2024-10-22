@@ -3364,66 +3364,6 @@
 					"sourceId": "5ae4497b86f7744cf402ed00",
 					"type": "HandoverItem",
 					"value": 2
-				},
-				"CounterHoursCrafting": {
-					"id": "5d5589c1f934db045e6c5492",
-					"type": "CounterHoursCrafting",
-					"sourceId": "CounterCrafting",
-					"value": 19500
-				},
-				"66e2b253e245d5e775000005": {
-					"id": "66e2b253e245d5e775000005",
-					"value": 1,
-					"sourceId": "66e2b253e245d5e775000001",
-					"type": "CounterCreator"
-				},
-				"66f40d04e7e54495a5000005": {
-					"id": "66f40d04e7e54495a5000005",
-					"value": 1,
-					"sourceId": "66f40d04e7e54495a5000001",
-					"type": "CounterCreator"
-				},
-				"66f6b5ef5b31edc89c000005": {
-					"id": "66f6b5ef5b31edc89c000005",
-					"value": 4,
-					"sourceId": "66f6b5ef5b31edc89c000001",
-					"type": "CounterCreator"
-				},
-				"66fbffee85d3911d45000002": {
-					"id": "66fbffee85d3911d45000002",
-					"value": 0,
-					"sourceId": "66fbffee85d3911d45000001",
-					"type": "HandoverItem"
-				},
-				"66fff9e32590b60d22000012": {
-					"id": "66fff9e32590b60d22000012",
-					"value": 3,
-					"sourceId": "66fff9e32590b60d2200000e",
-					"type": "CounterCreator"
-				},
-				"6706a49d2fac4a1a70000005": {
-					"id": "6706a49d2fac4a1a70000005",
-					"value": 3,
-					"sourceId": "6706a49d2fac4a1a70000001",
-					"type": "CounterCreator"
-				},
-				"670ba8b7242b78756500000a": {
-					"id": "670ba8b7242b78756500000a",
-					"value": 1,
-					"sourceId": "670ba8b7242b787565000006",
-					"type": "CounterCreator"
-				},
-				"670cfa38a8cab020b0000007": {
-					"id": "670cfa38a8cab020b0000007",
-					"value": 1,
-					"sourceId": "670cfa38a8cab020b0000003",
-					"type": "CounterCreator"
-				},
-				"670e526befaca2b116000012": {
-					"id": "670e526befaca2b116000012",
-					"value": 1,
-					"sourceId": "670e526befaca2b11600000e",
-					"type": "CounterCreator"
 				}
 			},
 			"Bonuses": [
@@ -5357,7 +5297,7 @@
 					"Current": 37,
 					"Maximum": 40
 				},
-				"UpdateTime": 1729612092
+				"UpdateTime": 1729616188
 			},
 			"Hideout": {
 				"Areas": [
@@ -5452,8 +5392,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 85.9083,
-												"UnitsConsumed": 4.0917
+												"Value": 85.2934,
+												"UnitsConsumed": 4.7066
 											},
 											"SpawnedInSession": false
 										}
@@ -6148,10 +6088,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 107219,
+						"Progress": 108238,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1729615773,
+						"StartTimestamp": 1729616288,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -6177,7 +6117,7 @@
 					}
 				},
 				"Seed": 1977615205,
-				"sptUpdateLastRunTimestamp": 1729615773
+				"sptUpdateLastRunTimestamp": 1729616288
 			},
 			"Info": {
 				"AccountType": 0,
@@ -41440,13 +41380,13 @@
 					{
 						"_id": "288e53f295c7c5cc2cff0535",
 						"_tpl": "5d1b33a686f7742523398398",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "c831fcba89e877b78be50fd4",
+						"slotId": "main",
 						"location": {
-							"x": 0,
-							"y": 10,
-							"r": 0,
-							"rotation": false
+							"x": 3,
+							"y": 6,
+							"r": "Horizontal",
+							"isSearched": true
 						},
 						"upd": {
 							"SpawnedInSession": true
@@ -58427,8 +58367,8 @@
 					"dt": 1729611437,
 					"text": "",
 					"templateId": "5bc4893c86f774626f5ebf3e successMessageText",
-					"hasRewards": true,
-					"rewardCollected": false,
+					"hasRewards": false,
+					"rewardCollected": true,
 					"items": {
 						"stash": "4e49d4fad2e32e44c163f279",
 						"data": []
@@ -58595,8 +58535,8 @@
 					"dt": 1729611453,
 					"text": "",
 					"templateId": "5a27bc8586f7741b543d8ea4 successMessageText",
-					"hasRewards": true,
-					"rewardCollected": false,
+					"hasRewards": false,
+					"rewardCollected": true,
 					"items": {
 						"stash": "67242aac35936d307185fdd1",
 						"data": []
@@ -58686,8 +58626,8 @@
 					"dt": 1729611561,
 					"text": "",
 					"templateId": "5ae4496986f774459e77beb6 successMessageText",
-					"hasRewards": true,
-					"rewardCollected": false,
+					"hasRewards": false,
+					"rewardCollected": true,
 					"items": {
 						"stash": "2f9ac1e52ee546912132b246",
 						"data": []
@@ -58732,8 +58672,8 @@
 					"dt": 1729611427,
 					"text": "",
 					"templateId": "66058cbb06ef1d50a60c1f46 successMessageText",
-					"hasRewards": true,
-					"rewardCollected": false,
+					"hasRewards": false,
+					"rewardCollected": true,
 					"items": {
 						"stash": "8e9eede74f243e28e4bf20d8",
 						"data": []
