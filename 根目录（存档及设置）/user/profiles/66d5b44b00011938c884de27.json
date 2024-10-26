@@ -3497,59 +3497,11 @@
 					"sourceId": "671b328408663b243d000010",
 					"type": "HandoverItem"
 				},
-				"66e2b253e245d5e775000005": {
-					"id": "66e2b253e245d5e775000005",
-					"value": 1,
-					"sourceId": "66e2b253e245d5e775000001",
-					"type": "CounterCreator"
-				},
-				"66f40d04e7e54495a5000005": {
-					"id": "66f40d04e7e54495a5000005",
-					"value": 1,
-					"sourceId": "66f40d04e7e54495a5000001",
-					"type": "CounterCreator"
-				},
-				"66f6b5ef5b31edc89c000005": {
-					"id": "66f6b5ef5b31edc89c000005",
-					"value": 4,
-					"sourceId": "66f6b5ef5b31edc89c000001",
-					"type": "CounterCreator"
-				},
-				"66fbffee85d3911d45000002": {
-					"id": "66fbffee85d3911d45000002",
-					"value": 0,
-					"sourceId": "66fbffee85d3911d45000001",
-					"type": "HandoverItem"
-				},
-				"66fff9e32590b60d22000012": {
-					"id": "66fff9e32590b60d22000012",
-					"value": 3,
-					"sourceId": "66fff9e32590b60d2200000e",
-					"type": "CounterCreator"
-				},
-				"6706a49d2fac4a1a70000005": {
-					"id": "6706a49d2fac4a1a70000005",
-					"value": 3,
-					"sourceId": "6706a49d2fac4a1a70000001",
-					"type": "CounterCreator"
-				},
-				"670ba8b7242b78756500000a": {
-					"id": "670ba8b7242b78756500000a",
-					"value": 1,
-					"sourceId": "670ba8b7242b787565000006",
-					"type": "CounterCreator"
-				},
-				"670cfa38a8cab020b0000007": {
-					"id": "670cfa38a8cab020b0000007",
-					"value": 1,
-					"sourceId": "670cfa38a8cab020b0000003",
-					"type": "CounterCreator"
-				},
-				"670e526befaca2b116000012": {
-					"id": "670e526befaca2b116000012",
-					"value": 1,
-					"sourceId": "670e526befaca2b11600000e",
-					"type": "CounterCreator"
+				"CounterHoursCrafting": {
+					"id": "5ffcab66fd851f4b000d61ef",
+					"type": "CounterHoursCrafting",
+					"sourceId": "CounterCrafting",
+					"value": 2500
 				}
 			},
 			"Bonuses": [
@@ -5492,7 +5444,7 @@
 					"Current": 37,
 					"Maximum": 40
 				},
-				"UpdateTime": 1729870842
+				"UpdateTime": 1729917869
 			},
 			"Hideout": {
 				"Areas": [
@@ -5530,7 +5482,7 @@
 						"active": true,
 						"completeTime": 0,
 						"constructing": false,
-						"lastRecipe": "5e1330dca0f0f8773c069c99",
+						"lastRecipe": "5d93ba4486f77454bd61d2a9",
 						"level": 3,
 						"passiveBonusesEnabled": true,
 						"slots": [],
@@ -5553,8 +5505,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 80.4621,
-												"UnitsConsumed": 9.5379
+												"Value": 25.2436,
+												"UnitsConsumed": 4.7564
 											},
 											"SpawnedInSession": false
 										}
@@ -5562,7 +5514,16 @@
 								]
 							},
 							{
-								"locationIndex": 1
+								"locationIndex": 1,
+								"item": [
+									{
+										"_id": "21c8cf0f5cdb03bbe83c5de4",
+										"_tpl": "5d1b36a186f7742523398433",
+										"upd": {
+											"StackObjectsCount": 1
+										}
+									}
+								]
 							},
 							{
 								"locationIndex": 2,
@@ -5663,8 +5624,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 92.404,
-												"UnitsConsumed": 7.596
+												"Value": 71.898,
+												"UnitsConsumed": 8.102
 											},
 											"SpawnedInSession": false
 										}
@@ -6283,10 +6244,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 34466,
+						"Progress": 126956,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1729871575,
+						"StartTimestamp": 1729918075,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -6296,10 +6257,10 @@
 						"SkipTime": 0
 					},
 					"5d5589c1f934db045e6c5492": {
-						"Progress": 7934,
+						"Progress": 165,
 						"inProgress": true,
 						"RecipeId": "5d5589c1f934db045e6c5492",
-						"StartTimestamp": 1729863623,
+						"StartTimestamp": 1729917920,
 						"ProductionTime": 10237.5,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -6309,62 +6270,10 @@
 						"SkipTime": 0,
 						"sptIsComplete": false,
 						"sptIsContinuous": true
-					},
-					"5ffcab66fd851f4b000d61ef": {
-						"Progress": 7919,
-						"inProgress": true,
-						"RecipeId": "5ffcab66fd851f4b000d61ef",
-						"StartTimestamp": 1729863664,
-						"ProductionTime": 37500,
-						"Products": [],
-						"GivenItemsInStart": [],
-						"Interrupted": false,
-						"NeedFuelForAllProductionTime": false,
-						"needFuelForAllProductionTime": false,
-						"SkipTime": 0,
-						"sptRequiredTools": [
-							{
-								"_id": "4b559a7b9bce9dad92ded1c0",
-								"_tpl": "5d40419286f774318526545f",
-								"upd": {
-									"StackObjectsCount": 1
-								}
-							}
-						]
-					},
-					"5d93ba4486f77454bd61d2a9": {
-						"Progress": 3678,
-						"inProgress": true,
-						"RecipeId": "5d93ba4486f77454bd61d2a9",
-						"StartTimestamp": 1729867899,
-						"ProductionTime": 5875,
-						"Products": [],
-						"GivenItemsInStart": [],
-						"Interrupted": false,
-						"NeedFuelForAllProductionTime": false,
-						"needFuelForAllProductionTime": false,
-						"SkipTime": 0,
-						"sptRequiredTools": [
-							{
-								"_id": "536c0bc22b3f6f0eda20b799",
-								"_tpl": "590c2e1186f77425357b6124",
-								"upd": {
-									"StackObjectsCount": 1
-								}
-							},
-							{
-								"_id": "804f3cfd401ccc82243e6749",
-								"_tpl": "5d40425986f7743185265461",
-								"upd": {
-									"StackObjectsCount": 1,
-									"SpawnedInSession": true
-								}
-							}
-						]
 					}
 				},
 				"Seed": 1977615205,
-				"sptUpdateLastRunTimestamp": 1729871575
+				"sptUpdateLastRunTimestamp": 1729918075
 			},
 			"Info": {
 				"AccountType": 0,
@@ -42364,7 +42273,7 @@
 						"_id": "e7cf0a172b4bebaa42f50f25",
 						"_tpl": "5449016a4bdc2d6f028b456f",
 						"upd": {
-							"StackObjectsCount": 414287,
+							"StackObjectsCount": 247463,
 							"SpawnedInSession": true
 						},
 						"parentId": "6613bb72b5b0ba138a0fab07",
@@ -43826,6 +43735,97 @@
 							"y": 0,
 							"r": "Horizontal",
 							"isSearched": true
+						}
+					},
+					{
+						"_id": "4b559a7b9bce9dad92ded1c0",
+						"_tpl": "5d40419286f774318526545f",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 2,
+							"y": 31,
+							"r": 1,
+							"rotation": true
+						}
+					},
+					{
+						"_id": "256b14577235c6d97a6c0ffb",
+						"_tpl": "5e2af55f86f7746d4159f07c",
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 4,
+							"y": 63,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
+						}
+					},
+					{
+						"_id": "956094985526234ca344f4c2",
+						"_tpl": "5d1b33a686f7742523398398",
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 3,
+							"y": 41,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
+						}
+					},
+					{
+						"_id": "536c0bc22b3f6f0eda20b799",
+						"_tpl": "590c2e1186f77425357b6124",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 4,
+							"y": 61,
+							"r": 0,
+							"rotation": false
+						}
+					},
+					{
+						"_id": "804f3cfd401ccc82243e6749",
+						"_tpl": "5d40425986f7743185265461",
+						"upd": {
+							"StackObjectsCount": 1,
+							"SpawnedInSession": true
+						},
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 6,
+							"y": 32,
+							"r": 0,
+							"rotation": false
+						}
+					},
+					{
+						"_id": "23bb731005849d22e1e90828",
+						"_tpl": "5d1b2f3f86f774252167a52c",
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 7,
+							"y": 63,
+							"r": 0,
+							"rotation": false
+						},
+						"upd": {
+							"SpawnedInSession": true
 						}
 					}
 				],
@@ -48248,9 +48248,9 @@
 					},
 					{
 						"Id": "Intellect",
-						"Progress": 490.8156,
+						"Progress": 491.8156,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1729867632
+						"LastAccess": 1729917929
 					},
 					{
 						"Id": "Attention",
@@ -48448,13 +48448,13 @@
 						"Id": "Crafting",
 						"Progress": 5100,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1729867632
+						"LastAccess": 1729917929
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 2002.2,
+						"Progress": 2011.4000000000003,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1729867871
+						"LastAccess": 1729917929
 					}
 				],
 				"Mastering": [
@@ -52361,7 +52361,7 @@
 				"5c0647fdd443bc2504c2d371": {
 					"disabled": false,
 					"loyaltyLevel": 4,
-					"salesSum": 20186493,
+					"salesSum": 20353317,
 					"standing": 0.78,
 					"nextResupply": 1725331798,
 					"unlocked": true
@@ -59739,10 +59739,7 @@
 					"text": "Your Peltor Tactical Sport headset 1 items were bought by Crow.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "10512fba9052d4305a7185e4",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -59753,10 +59750,7 @@
 					"text": "Your Steyr AUG Relfex T4AUG Ranger 5.56x45 sound suppressor 1 items were bought by Valens.",
 					"hasRewards": false,
 					"rewardCollected": true,
-					"items": {
-						"stash": "fd6d8b6caa448ec04c5a86fa",
-						"data": []
-					},
+					"items": {},
 					"maxStorageTime": 172800
 				},
 				{
@@ -59905,13 +59899,13 @@
 		"5a7c2eca46aef81a7ca2145d": {},
 		"58330581ace78e27b8b10cee": {},
 		"5ac3b934156ae10c4430e83c": {},
-		"5c0647fdd443bc2504c2d371": {},
-		"54cb50c76803fa8b248b4571": {
-			"666aa31ae8e00edadd0d1e2e": {
-				"count": 144,
-				"purchaseTimestamp": 1729870709
+		"5c0647fdd443bc2504c2d371": {
+			"666aa2ece8e00edadd0d090b": {
+				"count": 1,
+				"purchaseTimestamp": 1729917903
 			}
 		},
+		"54cb50c76803fa8b248b4571": {},
 		"5935c25fb3acc3127c3d8cd9": {},
 		"6617beeaa9cfa777ca915b7c": {},
 		"54cb57776803fa99248b456e": {}
