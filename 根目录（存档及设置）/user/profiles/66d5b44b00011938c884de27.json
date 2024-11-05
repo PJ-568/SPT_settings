@@ -5688,8 +5688,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 12.8826,
-												"UnitsConsumed": 7.1174
+												"Value": 12.6702,
+												"UnitsConsumed": 7.3298
 											},
 											"SpawnedInSession": false
 										}
@@ -6367,10 +6367,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 77,
+						"Progress": 425,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1730784308,
+						"StartTimestamp": 1730784488,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -6395,7 +6395,7 @@
 						"sptIsContinuous": true
 					},
 					"5d5c1fd4d582a500650132f0": {
-						"Progress": 40,
+						"Progress": 220,
 						"inProgress": true,
 						"RecipeId": "5d5c1fd4d582a500650132f0",
 						"StartTimestamp": 1730784274,
@@ -6408,7 +6408,7 @@
 						"SkipTime": 0
 					},
 					"6271093e621b0a76055cd61e": {
-						"Progress": 11,
+						"Progress": 191,
 						"inProgress": true,
 						"RecipeId": "6271093e621b0a76055cd61e",
 						"StartTimestamp": 1730784297,
@@ -6423,7 +6423,7 @@
 					}
 				},
 				"Seed": 1977615205,
-				"sptUpdateLastRunTimestamp": 1730784308
+				"sptUpdateLastRunTimestamp": 1730784488
 			},
 			"Info": {
 				"AccountType": 0,
@@ -6945,6 +6945,74 @@
 				{
 					"tid": "54cb50c76803fa8b248b4571",
 					"itemId": "e0e730eef33aac69aa8b3707"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "a0984561b1fdfb80c09c19f1"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "71beb888355bc0ec635fd457"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "9d3307f9f986c6060ab2e566"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "87de337a65ae380a38657594"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "369910635a5303d5eda61ad6"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "c07623fd98ffc0005b266db0"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "cdb2f7f96d1b7cc6cbe83096"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "8997dabf64ada9f0c5f62ef3"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "fa15e83738c666fbe83f4266"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "c1720497e91118d46e4f5dd2"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "fe64936e0d54ea87350105e9"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "a718c375b73ad09ad3eba087"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "56b1f38614bcff6a82151339"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "366d0ef5291b348266e26dad"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "30885177bdd65be552b81252"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "6cf4c751adf024feafdc4ffe"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "1266cbd9809e1f7a03174b2c"
 				}
 			],
 			"Inventory": {
@@ -41089,7 +41157,7 @@
 						"_id": "3b92eb7fb86ddac1f51a04ed",
 						"_tpl": "5449016a4bdc2d6f028b456f",
 						"upd": {
-							"StackObjectsCount": 451306
+							"StackObjectsCount": 421427
 						},
 						"parentId": "6613bb72b5b0ba138a0fab07",
 						"slotId": "hideout",
@@ -41746,25 +41814,19 @@
 					{
 						"_id": "71beb888355bc0ec635fd457",
 						"_tpl": "5c471c442e221602b542a6f8",
-						"parentId": "3dbe3907cbb2b53e52548d8c",
-						"slotId": "2",
-						"upd": {},
-						"location": {
-							"x": 0,
-							"y": 0,
-							"r": "Horizontal",
-							"isSearched": true
-						}
+						"parentId": "1266cbd9809e1f7a03174b2c",
+						"slotId": "mod_magazine",
+						"upd": {}
 					},
 					{
 						"_id": "3dbe3907cbb2b53e52548d8c",
 						"_tpl": "5d5d646386f7742797261fd9",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "7088a97c0ce3766839d04148",
+						"slotId": "main",
 						"upd": {},
 						"location": {
-							"x": 2,
-							"y": 58,
+							"x": 0,
+							"y": 0,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -42120,12 +42182,12 @@
 					{
 						"_id": "53a993b2fa03db87bc616db8",
 						"_tpl": "5648a69d4bdc2ded0b8b457b",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "0d855aeaca414553977f84fa",
+						"slotId": "main",
 						"upd": {},
 						"location": {
 							"x": 0,
-							"y": 63,
+							"y": 4,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -42174,12 +42236,12 @@
 					{
 						"_id": "0bf7e46a0115f3e3234078df",
 						"_tpl": "6033fa48ffd42c541047f728",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "d168737f582f637079bdb057",
+						"slotId": "main",
 						"upd": {},
 						"location": {
-							"x": 5,
-							"y": 60,
+							"x": 0,
+							"y": 12,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -42296,8 +42358,8 @@
 					{
 						"_id": "1266cbd9809e1f7a03174b2c",
 						"_tpl": "5c46fbd72e2216398b5a8c9c",
-						"parentId": "b5e821e56948d17f9ce2f4e5",
-						"slotId": "main",
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
 						"upd": {
 							"Repairable": {
 								"MaxDurability": 98.83,
@@ -42311,8 +42373,8 @@
 							}
 						},
 						"location": {
-							"x": 6,
-							"y": 0,
+							"x": 0,
+							"y": 63,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -42338,16 +42400,10 @@
 					{
 						"_id": "56b1f38614bcff6a82151339",
 						"_tpl": "5dff77c759400025ea5150cf",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "369910635a5303d5eda61ad6",
+						"slotId": "mod_scope",
 						"upd": {
 							"SpawnedInSession": false
-						},
-						"location": {
-							"x": 3,
-							"y": 63,
-							"r": "Horizontal",
-							"isSearched": true
 						}
 					},
 					{
@@ -42489,13 +42545,13 @@
 					{
 						"_id": "288d8b39d314bd7b66170ff0",
 						"_tpl": "5d1b376e86f774252519444e",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "c831fcba89e877b78be50fd4",
+						"slotId": "main",
 						"location": {
-							"x": 5,
-							"y": 63,
-							"r": 0,
-							"rotation": false
+							"x": 7,
+							"y": 6,
+							"r": "Horizontal",
+							"isSearched": true
 						},
 						"upd": {
 							"SpawnedInSession": true
@@ -42510,13 +42566,13 @@
 								"HpPercent": 7
 							}
 						},
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "c831fcba89e877b78be50fd4",
+						"slotId": "main",
 						"location": {
-							"x": 3,
-							"y": 64,
-							"r": 0,
-							"rotation": false
+							"x": 5,
+							"y": 2,
+							"r": "Horizontal",
+							"isSearched": true
 						}
 					},
 					{
@@ -42528,13 +42584,13 @@
 								"HpPercent": 7
 							}
 						},
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "a8d58fa3f679c73e7d443411",
+						"slotId": "main",
 						"location": {
-							"x": 4,
-							"y": 64,
-							"r": 0,
-							"rotation": false
+							"x": 0,
+							"y": 0,
+							"r": "Horizontal",
+							"isSearched": true
 						}
 					},
 					{
@@ -42546,13 +42602,13 @@
 								"HpPercent": 7
 							}
 						},
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "a8d58fa3f679c73e7d443411",
+						"slotId": "main",
 						"location": {
-							"x": 3,
-							"y": 65,
-							"r": 0,
-							"rotation": false
+							"x": 1,
+							"y": 0,
+							"r": "Horizontal",
+							"isSearched": true
 						}
 					},
 					{
@@ -42564,13 +42620,22 @@
 								"HpPercent": 7
 							}
 						},
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "c831fcba89e877b78be50fd4",
+						"slotId": "main",
 						"location": {
-							"x": 4,
-							"y": 65,
-							"r": 0,
-							"rotation": false
+							"x": 5,
+							"y": 3,
+							"r": "Horizontal",
+							"isSearched": true
+						}
+					},
+					{
+						"_id": "369910635a5303d5eda61ad6",
+						"_tpl": "5e569a2e56edd02abe09f280",
+						"parentId": "1266cbd9809e1f7a03174b2c",
+						"slotId": "mod_mount_000",
+						"upd": {
+							"StackObjectsCount": 1
 						}
 					}
 				],
@@ -47182,9 +47247,9 @@
 					},
 					{
 						"Id": "Charisma",
-						"Progress": 1380.283081,
+						"Progress": 1380.453081,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1730530568
+						"LastAccess": 1730784439
 					},
 					{
 						"Id": "Pistol",
@@ -50590,7 +50655,7 @@
 				"54cb50c76803fa8b248b4571": {
 					"disabled": false,
 					"loyaltyLevel": 4,
-					"salesSum": 14160153,
+					"salesSum": 14182864,
 					"standing": 1.03,
 					"nextResupply": 1725334395,
 					"unlocked": true
@@ -50630,7 +50695,7 @@
 				"5a7c2eca46aef81a7ca2145d": {
 					"disabled": false,
 					"loyaltyLevel": 4,
-					"salesSum": 11551600,
+					"salesSum": 11558768,
 					"standing": 1.27,
 					"nextResupply": 1725340018,
 					"unlocked": true
@@ -58549,7 +58614,12 @@
 	},
 	"insurance": [],
 	"traderPurchases": {
-		"5a7c2eca46aef81a7ca2145d": {},
+		"5a7c2eca46aef81a7ca2145d": {
+			"666aa300e8e00edadd0d126b": {
+				"count": 1,
+				"purchaseTimestamp": 1730784431
+			}
+		},
 		"58330581ace78e27b8b10cee": {},
 		"5ac3b934156ae10c4430e83c": {},
 		"5c0647fdd443bc2504c2d371": {},
