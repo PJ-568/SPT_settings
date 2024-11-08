@@ -5583,7 +5583,8 @@
 				"5d80c93086f7744036212b41": true,
 				"628e4dd1f477aa12234918aa": true,
 				"5a0ee62286f774369454a7ac": true,
-				"64ccc24de61ea448b507d34d": true
+				"64ccc24de61ea448b507d34d": true,
+				"61a6444b8c141d68246e2d2f": true
 			},
 			"Health": {
 				"BodyParts": {
@@ -5631,18 +5632,18 @@
 					}
 				},
 				"Energy": {
-					"Current": 101,
+					"Current": 110,
 					"Maximum": 110
 				},
 				"Hydration": {
-					"Current": 64,
+					"Current": 100,
 					"Maximum": 100
 				},
 				"Temperature": {
 					"Current": 37,
 					"Maximum": 40
 				},
-				"UpdateTime": 1731059341
+				"UpdateTime": 1731071402
 			},
 			"Hideout": {
 				"Areas": [
@@ -5703,8 +5704,8 @@
 										"upd": {
 											"StackObjectsCount": 1,
 											"Resource": {
-												"Value": 84.3373,
-												"UnitsConsumed": 5.6627
+												"Value": 71.5986,
+												"UnitsConsumed": 8.4014
 											},
 											"SpawnedInSession": true
 										}
@@ -6419,10 +6420,10 @@
 				},
 				"Production": {
 					"5d5c205bd582a50d042a3c0e": {
-						"Progress": 115096,
+						"Progress": 136429,
 						"inProgress": true,
 						"RecipeId": "5d5c205bd582a50d042a3c0e",
-						"StartTimestamp": 1731062572,
+						"StartTimestamp": 1731073361,
 						"ProductionTime": 145000,
 						"Products": [],
 						"GivenItemsInStart": [],
@@ -6447,7 +6448,7 @@
 						"sptIsContinuous": true
 					},
 					"5ffcab66fd851f4b000d61ef": {
-						"Progress": 7351,
+						"Progress": 18140,
 						"inProgress": true,
 						"RecipeId": "5ffcab66fd851f4b000d61ef",
 						"StartTimestamp": 1731055226,
@@ -6470,14 +6471,14 @@
 					}
 				},
 				"Seed": 1977615205,
-				"sptUpdateLastRunTimestamp": 1731062572
+				"sptUpdateLastRunTimestamp": 1731073361
 			},
 			"Info": {
 				"AccountType": 0,
 				"BannedState": false,
 				"BannedUntil": 0,
 				"Bans": [],
-				"Experience": 4000520,
+				"Experience": 4000530,
 				"GameVersion": "edge_of_darkness",
 				"IsStreamerModeAvailable": false,
 				"LastTimePlayedAsSavage": 1731047505,
@@ -7160,6 +7161,18 @@
 				{
 					"tid": "54cb50c76803fa8b248b4571",
 					"itemId": "86c885f17c6b6c12bd483af1"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "3d02b6e6f32820de89a2ac02"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "578845e22f6436bd6fe38c0b"
+				},
+				{
+					"tid": "54cb50c76803fa8b248b4571",
+					"itemId": "58fa976eaec78713a85ef11b"
 				}
 			],
 			"Inventory": {
@@ -8223,8 +8236,8 @@
 					{
 						"_id": "67e85dc079258bb9c3743c13",
 						"_tpl": "56dee2bdd2720bc8328b4567",
-						"parentId": "a868b8d532cb9ebb4ffe4ff8",
-						"slotId": "main",
+						"parentId": "0a5828a44253b714d855b373",
+						"slotId": "FirstPrimaryWeapon",
 						"upd": {
 							"Repairable": {
 								"MaxDurability": 95.23,
@@ -8233,12 +8246,6 @@
 							"FireMode": {
 								"FireMode": "single"
 							}
-						},
-						"location": {
-							"x": 5,
-							"y": 8,
-							"r": "Vertical",
-							"isSearched": true
 						}
 					},
 					{
@@ -9189,8 +9196,8 @@
 						"upd": {
 							"SpawnedInSession": true,
 							"Repairable": {
-								"MaxDurability": 90,
-								"Durability": 68.23465
+								"Durability": 89.53779157303372,
+								"MaxDurability": 89.6
 							},
 							"Foldable": {
 								"Folded": false
@@ -13943,14 +13950,8 @@
 					{
 						"_id": "c1c000bead63815f8d947b47",
 						"_tpl": "5c0e57ba86f7747fa141986d",
-						"parentId": "32e8c7933356f6dba4d0aa45",
-						"slotId": "main",
-						"location": {
-							"x": 0,
-							"y": 10,
-							"r": "Horizontal",
-							"isSearched": true
-						},
+						"parentId": "0a5828a44253b714d855b373",
+						"slotId": "ArmorVest",
 						"upd": {
 							"SpawnedInSession": true
 						}
@@ -19578,7 +19579,7 @@
 						"upd": {
 							"SpawnedInSession": true,
 							"RepairKit": {
-								"Resource": 878.2728466
+								"Resource": 868.7929485999999
 							}
 						}
 					},
@@ -38760,11 +38761,11 @@
 					{
 						"_id": "a57443bf63a513200e379974",
 						"_tpl": "5c0e530286f7747fa1419862",
-						"parentId": "8c01320d7fbbb9389a67d9ad",
+						"parentId": "c89e276a8cd6a9f56164154c",
 						"slotId": "main",
 						"location": {
-							"x": 2,
-							"y": 6,
+							"x": 0,
+							"y": 2,
 							"r": "Horizontal",
 							"isSearched": true
 						},
@@ -39773,8 +39774,8 @@
 					{
 						"_id": "8e6368f94dab4cf804b90659",
 						"_tpl": "656fa76500d62bcd2e024080",
-						"parentId": "d168737f582f637079bdb057",
-						"slotId": "main",
+						"parentId": "b44ce649ba0f7308ef24538a",
+						"slotId": "3",
 						"upd": {
 							"SpawnedInSession": true,
 							"Repairable": {
@@ -39783,8 +39784,8 @@
 							}
 						},
 						"location": {
-							"x": 8,
-							"y": 10,
+							"x": 0,
+							"y": 0,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -42368,19 +42369,13 @@
 					{
 						"_id": "3d02b6e6f32820de89a2ac02",
 						"_tpl": "5b432b2f5acfc4771e1c6622",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "0a5828a44253b714d855b373",
+						"slotId": "FaceCover",
 						"upd": {
 							"Repairable": {
 								"MaxDurability": 40,
 								"Durability": 32
 							}
-						},
-						"location": {
-							"x": 0,
-							"y": 42,
-							"r": "Horizontal",
-							"isSearched": true
 						}
 					},
 					{
@@ -42424,15 +42419,9 @@
 					{
 						"_id": "578845e22f6436bd6fe38c0b",
 						"_tpl": "6033fa48ffd42c541047f728",
-						"parentId": "b5e821e56948d17f9ce2f4e5",
-						"slotId": "main",
-						"upd": {},
-						"location": {
-							"x": 10,
-							"y": 0,
-							"r": "Horizontal",
-							"isSearched": true
-						}
+						"parentId": "0a5828a44253b714d855b373",
+						"slotId": "Earpiece",
+						"upd": {}
 					},
 					{
 						"_id": "26c826ee1c9be8cea49680dc",
@@ -42601,15 +42590,9 @@
 					{
 						"_id": "58fa976eaec78713a85ef11b",
 						"_tpl": "5648a69d4bdc2ded0b8b457b",
-						"parentId": "c6628c197db0f93602683e55",
-						"slotId": "main",
-						"upd": {},
-						"location": {
-							"x": 4,
-							"y": 11,
-							"r": "Vertical",
-							"isSearched": true
-						}
+						"parentId": "0a5828a44253b714d855b373",
+						"slotId": "TacticalVest",
+						"upd": {}
 					},
 					{
 						"_id": "0b24f1b4f3e425a4ab7918ef",
@@ -43069,7 +43052,7 @@
 						"_id": "b51bee1eb2794fe128b5a3dd",
 						"_tpl": "5449016a4bdc2d6f028b456f",
 						"upd": {
-							"StackObjectsCount": 240145
+							"StackObjectsCount": 210787
 						},
 						"parentId": "6613bb72b5b0ba138a0fab07",
 						"slotId": "hideout",
@@ -43457,7 +43440,7 @@
 						"_id": "52e1bf28f11af38d1399beab",
 						"_tpl": "5696686a4bdc2da3298b456a",
 						"upd": {
-							"StackObjectsCount": 734,
+							"StackObjectsCount": 74,
 							"SpawnedInSession": true
 						},
 						"parentId": "6613bb72b5b0ba138a0fab07",
@@ -43472,14 +43455,14 @@
 					{
 						"_id": "698336c0373e48ade8868ae8",
 						"_tpl": "5d6e68c4a4b9361b93413f79",
-						"parentId": "6613bb72b5b0ba138a0fab07",
-						"slotId": "hideout",
+						"parentId": "fd51d1b9ef5dcadbdcc4e315",
+						"slotId": "pocket1",
 						"upd": {
-							"StackObjectsCount": 10
+							"StackObjectsCount": 20
 						},
 						"location": {
-							"x": 7,
-							"y": 1,
+							"x": 0,
+							"y": 0,
 							"r": "Horizontal",
 							"isSearched": true
 						}
@@ -43874,7 +43857,7 @@
 						"parentId": "fa511da93ac96dd36dc820b2",
 						"slotId": "main",
 						"upd": {
-							"StackObjectsCount": 20
+							"StackObjectsCount": 10
 						},
 						"location": {
 							"x": 0,
@@ -44170,6 +44153,51 @@
 							"y": 1,
 							"r": "Horizontal",
 							"isSearched": true
+						}
+					},
+					{
+						"_id": "aca9688c8d47e2af5e3911d0",
+						"_tpl": "5c0e533786f7747fa23f4d47",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "c0eabfaac23f7e24cf7f0c02",
+						"slotId": "main",
+						"location": {
+							"x": 0,
+							"y": 0,
+							"r": "Horizontal",
+							"isSearched": true
+						}
+					},
+					{
+						"_id": "cae73e9665349d6d03e4de48",
+						"_tpl": "5c0e533786f7747fa23f4d47",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "c0eabfaac23f7e24cf7f0c02",
+						"slotId": "main",
+						"location": {
+							"x": 1,
+							"y": 0,
+							"r": "Horizontal",
+							"isSearched": true
+						}
+					},
+					{
+						"_id": "dd287f5b465365bef1c2c24f",
+						"_tpl": "5c0e533786f7747fa23f4d47",
+						"upd": {
+							"StackObjectsCount": 1
+						},
+						"parentId": "6613bb72b5b0ba138a0fab07",
+						"slotId": "hideout",
+						"location": {
+							"x": 7,
+							"y": 63,
+							"r": 0,
+							"rotation": false
 						}
 					}
 				],
@@ -48926,9 +48954,9 @@
 					},
 					{
 						"Id": "Intellect",
-						"Progress": 533.534241,
+						"Progress": 534.0108364099999,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1731055042
+						"LastAccess": 1731072521
 					},
 					{
 						"Id": "Attention",
@@ -48938,9 +48966,9 @@
 					},
 					{
 						"Id": "Charisma",
-						"Progress": 1407.65588,
+						"Progress": 1407.68588,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1731058949
+						"LastAccess": 1731071710
 					},
 					{
 						"Id": "Pistol",
@@ -49094,9 +49122,9 @@
 					},
 					{
 						"Id": "WeaponTreatment",
-						"Progress": 1236.8,
+						"Progress": 1243.2,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1730959858
+						"LastAccess": 1731072521
 					},
 					{
 						"Id": "Auctions",
@@ -49130,9 +49158,9 @@
 					},
 					{
 						"Id": "HideoutManagement",
-						"Progress": 2158.6,
+						"Progress": 2159.6,
 						"PointsEarnedDuringSession": 0,
-						"LastAccess": 1731055168
+						"LastAccess": 1731071034
 					}
 				],
 				"Mastering": [
@@ -53800,7 +53828,7 @@
 				"54cb50c76803fa8b248b4571": {
 					"disabled": false,
 					"loyaltyLevel": 4,
-					"salesSum": 16140163,
+					"salesSum": 16154071,
 					"standing": 1.09,
 					"nextResupply": 1725334395,
 					"unlocked": true
@@ -53888,7 +53916,7 @@
 				"ragfair": {
 					"disabled": false,
 					"loyaltyLevel": 1,
-					"salesSum": 156340021,
+					"salesSum": 156440612,
 					"standing": 0.2,
 					"nextResupply": 1576762923,
 					"unlocked": false
@@ -57533,7 +57561,7 @@
 				"Side": "Savage",
 				"Voice": "Scav_5",
 				"Level": 12,
-				"Experience": 104961,
+				"Experience": 104971,
 				"RegistrationDate": 1725327205,
 				"GameVersion": "edge_of_darkness",
 				"AccountType": 0,
@@ -61011,7 +61039,8 @@
 				"5d80c93086f7744036212b41": true,
 				"628e4dd1f477aa12234918aa": true,
 				"5a0ee62286f774369454a7ac": true,
-				"64ccc24de61ea448b507d34d": true
+				"64ccc24de61ea448b507d34d": true,
+				"61a6444b8c141d68246e2d2f": true
 			},
 			"TaskConditionCounters": {
 				"65141a9264cf3ab72f7e268f": {
