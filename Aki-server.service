@@ -4,13 +4,13 @@ Wants=push-saves.timer
 After=push-saves.timer
 
 [Service]
-WorkingDirectory=/home/pj568/Aki-server
-ExecStartPre=/home/pj568/pull-saves.sh
-ExecStart=/home/pj568/Aki-server/SPT.Server.exe
+WorkingDirectory=/home/pj568/.local/bin/Aki-server/
+ExecStartPre=/home/pj568/文档/SPT_settings/pull-saves.sh
+ExecStart=/home/pj568/.local/bin/Aki-server/SPT.Server.exe
 Restart=always
 User=pj568
 Group=pj568
-ExecStopPost=/home/pj568/push-saves.sh
+ExecStopPost=/home/pj568/文档/SPT_settings/push-saves.sh
 
 [Install]
 WantedBy=multi-user.target
