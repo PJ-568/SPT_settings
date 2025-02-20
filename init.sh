@@ -10,13 +10,13 @@ if [ ! -d "$server_path/user" ]; then
     mkdir -p $server_path/user
 fi
 
-if [ -d "$server_path/user/launcher-bak" ]; then
-    rm -rf "$server_path/user/launcher-bak"
-fi
-if [ -d "$server_path/user/launcher" ]; then
-    mv "$server_path/user/launcher" "$server_path/user/launcher-bak"
-fi
-ln -s "$dir/根目录（存档及设置）/user/launcher" "$server_path/user/launcher"
+# if [ -d "$server_path/user/launcher-bak" ]; then
+#     rm -rf "$server_path/user/launcher-bak"
+# fi
+# if [ -d "$server_path/user/launcher" ]; then
+#     mv "$server_path/user/launcher" "$server_path/user/launcher-bak"
+# fi
+# ln -s "$dir/根目录（存档及设置）/user/launcher" "$server_path/user/launcher"
 
 if [ -d "$server_path/user/profiles-bak" ]; then
     rm -rf "$server_path/user/profiles-bak"
