@@ -16,6 +16,8 @@
   - [That's Lit - Logical AI Vision](https://hub.sp-tarkov.com/files/file/1453-that-s-lit-logical-ai-vision/) v1.394.05
   - [Hide Beta Rework](https://hub.sp-tarkov.com/files/file/2211-hide-beta-rework/) v1.0.0
   - [Shadow Flicker Fix](https://hub.sp-tarkov.com/files/file/2214-shadow-flicker-fix/) v1.0.2
+  - [ALP - Algorithmic Level Progression](https://hub.sp-tarkov.com/files/file/1400-alp-algorithmic-level-progression/) v5.2.1
+  - [Update 15 Backport](https://hub.sp-tarkov.com/files/file/2354-update-15-backport/) v1.0.2
   - `/user/mods`
     - [~~SPT_BetterPlates~~](https://github.com/PJ-568/SPT_BetterPlates)
 
