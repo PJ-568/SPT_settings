@@ -4,7 +4,7 @@ Wants=push-saves.timer
 After=push-saves.timer
 
 [Service]
-WorkingDirectory=/home/pj568/.local/bin/Aki-server/
+WorkingDirectory=/home/pj568/.local/bin/Aki-server
 ExecStartPre=/home/pj568/文档/SPT_settings/pull-saves.sh
 ExecStart=/home/pj568/.local/bin/Aki-server/SPT.Server.exe
 Restart=always
